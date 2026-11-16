@@ -1,0 +1,21 @@
+node_modules/
+dist/
+*.log
+debug.log
+*.local.json
+# machine-specific: the path of the wallpaper that was there before
+wallpaper/previous-wallpaper.txt
+screensaver/*.scr
+# secrets and machine-local settings never go in this repo
+ha.json
+joint-remote.json
+.env
+.env.*
+*.pem
+*.key
+# the user's private material: only the wallpaper sources are kept
+private/*
+!private/wallpaper/
+!private/publish.py
+!private/INSTALL-MAC.md
+!private/config/
